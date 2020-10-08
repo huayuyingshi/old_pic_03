@@ -1,0 +1,528 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="X-UA-Compatible" content="IE=7"/>
+<title>永久资源采集网</title>
+<meta name="keywords" content="永久资源"/>
+<meta name="description" content="每天更新最新的电影,最好看的资源"/>
+<link rel="stylesheet" type="text/css" href="/template/35zy/images/style.css">
+</head>
+<body>
+        <table border="0" width="100%" bgcolor="#FFFC00" style="font-size: 12px" cellspacing="0" cellpadding="0" height="30"><tr><td align="center">
+	<font color="#FF0000"  style="font-size: 16px" >重要通知：由于本站原域名yongjiuzy.com被墙，现启用新域名yongjiuzy.cc <br><br>本站采集地址和M3U8解析地址均已更换为全新域名<br><br>请访问帮助中心获取最新采集地址和M3U8解析地址<br><br> <a href="/help/#wlcome" target="blankl">帮助中心点此进入 </a> </b></font><br><br>
+	永久云资源分享群：<font color="yellow"><b><a target="_blank" href="https://jq.qq.com/?_wv=1027&k=53JNRcN"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="永久资源网" title="永久资源网" /></a></b></font><b><span class="STYLE1">（验证：永久云）</span></b><br /> <a href="/help/#wlcome" target="blankl"><font color="#FF0000"><b>永久云采集播放傻瓜教程出炉,一切菜鸟 看了就懂！点此进入</b></font></a><br />
+<div align="center"><a href="http://www.kanba.cc" target="_blank"><img src="/yongjiu.gif"></a></div></td>
+</tr></table>
+    <div id="topBar">
+        <div class="wtop fn-clear">
+            <div class="home-sign fn-left">
+                <a class="gonggao_ico" title="公告">
+                <SCRIPT language=javaScript>
+                now = new Date(),
+                hour = now.getHours()
+                document.write("<blink>")
+                if(hour < 5){document.write("永久云资源提醒您：夜已深,请注意休息哦! 身体是革命的本钱.")}
+                else if (hour < 9){document.write("早上好,欢迎光临永久云资源分享群:580320397")}
+                else if (hour < 12){document.write("上午好,欢迎光临永久云资源分享群:580320397")}
+                else if (hour < 14){document.write("中午好,欢迎光临永久云资源分享群:580320397")}
+                else if (hour < 18){document.write("下午好,欢迎光临永久云资源分享群:580320397")}
+                else if (hour < 23){document.write("晚上好,欢迎光临永久云资源分享群:580320397")}
+                </SCRIPT></a>
+            </div>
+            <div class="a-link fn-right">
+                <p>
+                <a target="_blank" href="http://www.yongjiuzy.com/help/#SeaCms" style="width: 120px;"><font color="#FF00FF">海洋CMS一键采集</font></a><em>|</em>
+                <a target="_blank" href="http://www.yongjiuzy.com/help/#MaxCms" style="width: 120px;"><font color="#0000FF">MAXCMS一键采集</font></a><em>|</em>
+                <a target="_blank" href="http://www.yongjiuzy.com/help/#MacCms" style="width: 120px;"><font color="#FF00FF">苹果CMS一键采集</font></a>
+                </p>
+            </div>
+        </div>  
+    </div>
+    <!-- // topBar end -->
+ 
+	<div class="header">
+		<div class="logo"><a href="/"></a></div>
+		<div class="search">
+			<form method="post" action="/index.php?m=vod-search">
+			<input type="text" id="wd" name="wd" value="请在此处输入关键词" onClick="this.value = ''" />
+			<button type="submit" id="searchbutton" class="button">全站搜索</button>
+			</form>
+		</div>
+		<div class="toplink">
+			<font color="#2932E1">
+				<a>永久云资源影片共有：<font color="red">36576</font>部，今日更新<font color="red">17</font></a> | 
+				<a onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.yongjiuzy.com/')" href="javascript:void(0)">设为首页</a> | 
+				<a onClick="javascript:window.external.AddFavorite('http://www.yongjiuzy.com/', '永久云资)" href="javascript:void(0)" target='_self'>加入收藏</a> | 
+			</font>
+		</div>
+	</div>
+	<div class="nav">
+		<ul>
+			<li><a href="/">首页</a></li>
+			<li><a href="/?m=vod-type-id-1.html" >电影</a></li>
+			<li><a href="/?m=vod-type-id-2.html" >连续剧</a></li>
+			<li><a href="/?m=vod-type-id-3.html" >综艺</a></li>
+			<li><a href="/?m=vod-type-id-4.html" >动漫</a></li>
+			<li><a href="/?m=vod-type-id-5.html" >动作片</a></li>
+			<li><a href="/?m=vod-type-id-6.html" >喜剧片</a></li>
+			<li><a href="/?m=vod-type-id-7.html" >爱情片</a></li>
+			<li><a href="/?m=vod-type-id-8.html" >科幻片</a></li>
+			<li><a href="/?m=vod-type-id-9.html" >恐怖片</a></li>
+			<li><a href="/?m=vod-type-id-10.html" >剧情片</a></li>
+			<li><a href="/?m=vod-type-id-11.html" >战争片</a></li>
+			<li><a href="/?m=vod-type-id-12.html" >国产剧</a></li>
+			<li><a href="/?m=vod-type-id-13.html" >港剧</a></li>
+			<li><a href="/?m=vod-type-id-14.html" >日剧</a></li>
+			<li><a href="/?m=vod-type-id-15.html" >欧美剧</a></li>
+			<li><a href="/?m=vod-type-id-16.html" >韩剧</a></li>
+			<li><a href="/?m=vod-type-id-17.html" >台剧</a></li>
+			<li><a href="/?m=vod-type-id-18.html" >伦理片</a></li>
+			<li><a href="/?m=vod-type-id-19.html" >美女写真</a></li>
+			<li><a href="/?m=vod-type-id-20.html" >嫩妹写真</a></li>
+			<li><a href="/?m=vod-type-id-21.html" >美女视频秀</a></li>
+			<li><a href="/?m=vod-type-id-22.html" >泰剧</a></li>
+			<li><a href="/?m=vod-type-id-23.html" >街拍系列</a></li>
+			<li><a href="/?m=vod-type-id-24.html" >高跟赤足视频</a></li>
+			<li><a href="/?m=vod-type-id-25.html" >VIP视频秀</a></li>
+			<li><a href="/?m=vod-type-id-26.html" >纪录片</a></li>
+		</ul>
+		<i class="morec"></i>
+	</div>
+	<script>
+	$(".morec").click(function(){
+		$(this).parent().toggleClass("navh");
+	});
+	</script>
+<div class="wrap">
+<div class="box clear">  
+<table id="listTable" class="list_style table_fixed">
+  <thead class="tcat">
+    <tr>
+      <th class="l1">资源名称</th>
+      <th class="l2">栏目分类</th>
+      <th class="l3">地区分类</th>
+      <th class="l4">连载状态</th>
+      <th class="l5">更新时间</th>
+    </tr>
+  </thead>
+  <tbody class="tbody" id="data_list">
+<!--影片列表开-->
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37383.html" target="_blank">哆哆嗖嗖啦啦嗖<font color="red"> [第01集]</font>
+  <td><a href="/?m=vod-type-id-16.html" target="_blank">韩剧</a></td>
+  <td><p><font color="Black">韩国</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-08 03:06:28 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37382.html" target="_blank">私生活<font color="red"> [第01集]</font>
+  <td><a href="/?m=vod-type-id-16.html" target="_blank">韩剧</a></td>
+  <td><p><font color="Black">韩国</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-08 03:03:06 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37381.html" target="_blank">九尾狐传<font color="red"> [第01集]</font>
+  <td><a href="/?m=vod-type-id-16.html" target="_blank">韩剧</a></td>
+  <td><p><font color="Black">韩国</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-08 03:02:16 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-36667.html" target="_blank">我最美的时刻<font color="red"> [第13集]</font>
+  <td><a href="/?m=vod-type-id-16.html" target="_blank">韩剧</a></td>
+  <td><p><font color="Black">韩国</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-08 02:39:38 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37380.html" target="_blank">蝙蝠侠：家庭之死<font color="red"> [第05集]</font>
+  <td><a href="/?m=vod-type-id-4.html" target="_blank">动漫</a></td>
+  <td><p><font color="Black">美国</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-08 02:38:35 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37379.html" target="_blank">逃出危城<font color="red"> [完结]</font>
+  <td><a href="/?m=vod-type-id-15.html" target="_blank">欧美剧</a></td>
+  <td><p><font color="Black">俄罗斯</font></p></td>
+  <td><span class="bts_1"><font color="#000000">完结</font></span></td>
+  <td><font color="#2932E1">2020-10-08 02:35:55 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-35610.html" target="_blank">食味暹罗<font color="red"> [第24集]</font>
+  <td><a href="/?m=vod-type-id-22.html" target="_blank">泰剧</a></td>
+  <td><p><font color="Black">泰国</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-08 01:20:35 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-33659.html" target="_blank">爱情保卫战[2020]<font color="red"> [20201007期]</font>
+  <td><a href="/?m=vod-type-id-3.html" target="_blank">综艺</a></td>
+  <td><p><font color="Black">大陆</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-08 01:18:29 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-33024.html" target="_blank">我是大美人[2020]<font color="red"> [20201007期]</font>
+  <td><a href="/?m=vod-type-id-3.html" target="_blank">综艺</a></td>
+  <td><p><font color="Black">大陆</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-08 00:58:13 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-36347.html" target="_blank">叮咚上线！老师好<font color="red"> [20201007期]</font>
+  <td><a href="/?m=vod-type-id-3.html" target="_blank">综艺</a></td>
+  <td><p><font color="Black">大陆</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-08 00:57:40 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37121.html" target="_blank">DIVER-特别卧底组-<font color="red"> [第03集]</font>
+  <td><a href="/?m=vod-type-id-14.html" target="_blank">日剧</a></td>
+  <td><p><font color="Black">日本</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-08 00:51:21 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37102.html" target="_blank">我在香港遇见他<font color="red"> [第19集]</font>
+  <td><a href="/?m=vod-type-id-12.html" target="_blank">国产剧</a></td>
+  <td><p><font color="Black">大陆</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-08 00:50:46 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37378.html" target="_blank">大贵族<font color="red"> [第01集]</font>
+  <td><a href="/?m=vod-type-id-4.html" target="_blank">动漫</a></td>
+  <td><p><font color="Black">日本</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-08 00:49:55 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-36847.html" target="_blank">万物既伟大又渺小<font color="red"> [第06集]</font>
+  <td><a href="/?m=vod-type-id-15.html" target="_blank">欧美剧</a></td>
+  <td><p><font color="Black">英国</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-08 00:46:42 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37376.html" target="_blank">危爱<font color="red"> [HD高清]</font>
+  <td><a href="/?m=vod-type-id-7.html" target="_blank">爱情片</a></td>
+  <td><p><font color="Black">大陆</font></p></td>
+  <td><span class="bts_1"><font color="#000000">完结</font></span></td>
+  <td><font color="#2932E1">2020-10-08 00:38:13 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37377.html" target="_blank">这是你与我的最后战场，或是开创世界的圣战<font color="red"> [第01集]</font>
+  <td><a href="/?m=vod-type-id-4.html" target="_blank">动漫</a></td>
+  <td><p><font color="Black">日本</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-08 00:09:31 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37104.html" target="_blank">C9特工国语<font color="red"> [第13集]</font>
+  <td><a href="/?m=vod-type-id-13.html" target="_blank">港剧</a></td>
+  <td><p><font color="Black">香港</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-08 00:04:44 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37103.html" target="_blank">C9特工粤语<font color="red"> [第13集]</font>
+  <td><a href="/?m=vod-type-id-13.html" target="_blank">港剧</a></td>
+  <td><p><font color="Black">香港</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 23:18:00 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-35895.html" target="_blank">我的灿烂人生<font color="red"> [第68集]</font>
+  <td><a href="/?m=vod-type-id-16.html" target="_blank">韩剧</a></td>
+  <td><p><font color="Black">韩国</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 23:00:57 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-36921.html" target="_blank">秘密的男人<font color="red"> [第21集]</font>
+  <td><a href="/?m=vod-type-id-16.html" target="_blank">韩剧</a></td>
+  <td><p><font color="Black">韩国</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 22:59:35 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-34836.html" target="_blank">绝妙的遗产<font color="red"> [第120集]</font>
+  <td><a href="/?m=vod-type-id-16.html" target="_blank">韩剧</a></td>
+  <td><p><font color="Black">韩国</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 22:59:04 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-36920.html" target="_blank">亲爱的自己DVD版<font color="red"> [第40集]</font>
+  <td><a href="/?m=vod-type-id-12.html" target="_blank">国产剧</a></td>
+  <td><p><font color="Black">大陆</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 22:10:41 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37020.html" target="_blank">亲爱的，你在哪里<font color="red"> [第40集]</font>
+  <td><a href="/?m=vod-type-id-12.html" target="_blank">国产剧</a></td>
+  <td><p><font color="Black">大陆</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 22:08:32 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37375.html" target="_blank">月歌2<font color="red"> [第01集]</font>
+  <td><a href="/?m=vod-type-id-4.html" target="_blank">动漫</a></td>
+  <td><p><font color="Black">日本</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 22:07:02 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37081.html" target="_blank">熊熊勇闯异世界<font color="red"> [第01集]</font>
+  <td><a href="/?m=vod-type-id-4.html" target="_blank">动漫</a></td>
+  <td><p><font color="Black">日本</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 22:02:35 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37374.html" target="_blank">特工老爸<font color="red"> [HD高清]</font>
+  <td><a href="/?m=vod-type-id-5.html" target="_blank">动作片</a></td>
+  <td><p><font color="Black">美国</font></p></td>
+  <td><span class="bts_1"><font color="#000000">完结</font></span></td>
+  <td><font color="#2932E1">2020-10-07 21:41:59 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37145.html" target="_blank">风犬少年的天空<font color="red"> [第11集]</font>
+  <td><a href="/?m=vod-type-id-12.html" target="_blank">国产剧</a></td>
+  <td><p><font color="Black">大陆</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 21:21:13 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-1180.html" target="_blank">爱回家之开心速递粤语<font color="red"> [更新到1021集]</font>
+  <td><a href="/?m=vod-type-id-13.html" target="_blank">港剧</a></td>
+  <td><p><font color="Black">香港</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 21:07:46 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-36919.html" target="_blank">亲爱的自己<font color="red"> [第43集]</font>
+  <td><a href="/?m=vod-type-id-12.html" target="_blank">国产剧</a></td>
+  <td><p><font color="Black">大陆</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 21:06:28 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37314.html" target="_blank">西口情歌<font color="red"> [第18集]</font>
+  <td><a href="/?m=vod-type-id-12.html" target="_blank">国产剧</a></td>
+  <td><p><font color="Black">大陆</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 20:20:56 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37218.html" target="_blank">在一起2020<font color="red"> [第18集]</font>
+  <td><a href="/?m=vod-type-id-12.html" target="_blank">国产剧</a></td>
+  <td><p><font color="Black">大陆</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 20:11:59 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37115.html" target="_blank">乘风少年<font color="red"> [第16集]</font>
+  <td><a href="/?m=vod-type-id-12.html" target="_blank">国产剧</a></td>
+  <td><p><font color="Black">大陆</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 20:07:32 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37201.html" target="_blank">浮世双娇传<font color="red"> [第18集]</font>
+  <td><a href="/?m=vod-type-id-12.html" target="_blank">国产剧</a></td>
+  <td><p><font color="Black">大陆</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 20:00:44 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37113.html" target="_blank">凤唳九天<font color="red"> [第26集]</font>
+  <td><a href="/?m=vod-type-id-12.html" target="_blank">国产剧</a></td>
+  <td><p><font color="Black">大陆</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 19:57:38 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-36938.html" target="_blank">三嫁惹君心<font color="red"> [第32集]</font>
+  <td><a href="/?m=vod-type-id-12.html" target="_blank">国产剧</a></td>
+  <td><p><font color="Black">大陆</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 19:47:42 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37361.html" target="_blank">明月曾照江东寒<font color="red"> [第10集]</font>
+  <td><a href="/?m=vod-type-id-12.html" target="_blank">国产剧</a></td>
+  <td><p><font color="Black">大陆</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 19:46:31 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37254.html" target="_blank">小大夫<font color="red"> [第20集]</font>
+  <td><a href="/?m=vod-type-id-12.html" target="_blank">国产剧</a></td>
+  <td><p><font color="Black">大陆</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 19:35:06 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37373.html" target="_blank">休比的万圣节<font color="red"> [HD高清]</font>
+  <td><a href="/?m=vod-type-id-6.html" target="_blank">喜剧片</a></td>
+  <td><p><font color="Black">美国</font></p></td>
+  <td><span class="bts_1"><font color="#000000">完结</font></span></td>
+  <td><font color="#2932E1">2020-10-07 19:31:39 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37372.html" target="_blank">服装设计师<font color="red"> [HD高清]</font>
+  <td><a href="/?m=vod-type-id-10.html" target="_blank">剧情片</a></td>
+  <td><p><font color="Black">日本</font></p></td>
+  <td><span class="bts_1"><font color="#000000">完结</font></span></td>
+  <td><font color="#2932E1">2020-10-07 19:30:53 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-36771.html" target="_blank">无声的证言第二十一季<font color="red"> [第10集]</font>
+  <td><a href="/?m=vod-type-id-15.html" target="_blank">欧美剧</a></td>
+  <td><p><font color="Black">英国</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 18:28:47 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37131.html" target="_blank">剧集版超能陆战队第三季<font color="red"> [第04集]</font>
+  <td><a href="/?m=vod-type-id-4.html" target="_blank">动漫</a></td>
+  <td><p><font color="Black">美国</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 18:27:43 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37371.html" target="_blank">重击<font color="red"> [HD高清]</font>
+  <td><a href="/?m=vod-type-id-10.html" target="_blank">剧情片</a></td>
+  <td><p><font color="Black">大陆</font></p></td>
+  <td><span class="bts_1"><font color="#000000">完结</font></span></td>
+  <td><font color="#2932E1">2020-10-07 18:25:15 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37370.html" target="_blank">关机<font color="red"> [双语高清]</font>
+  <td><a href="/?m=vod-type-id-7.html" target="_blank">爱情片</a></td>
+  <td><p><font color="Black">大陆</font></p></td>
+  <td><span class="bts_1"><font color="#000000">完结</font></span></td>
+  <td><font color="#2932E1">2020-10-07 18:23:00 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37031.html" target="_blank">钱断情始<font color="red"> [第04集]</font>
+  <td><a href="/?m=vod-type-id-14.html" target="_blank">日剧</a></td>
+  <td><p><font color="Black">日本</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 18:18:18 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-36890.html" target="_blank">不解之缘<font color="red"> [第13集]</font>
+  <td><a href="/?m=vod-type-id-22.html" target="_blank">泰剧</a></td>
+  <td><p><font color="Black">泰国</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 18:17:55 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-32676.html" target="_blank">全民星攻略[2020]<font color="red"> [20201006期]</font>
+  <td><a href="/?m=vod-type-id-3.html" target="_blank">综艺</a></td>
+  <td><p><font color="Black">台湾</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 18:14:23 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-37009.html" target="_blank">想变得危险的男人<font color="red"> [第04集]</font>
+  <td><a href="/?m=vod-type-id-14.html" target="_blank">日剧</a></td>
+  <td><p><font color="Black">日本</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 18:13:55 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-36549.html" target="_blank">宕机警察<font color="red"> [第06集]</font>
+  <td><a href="/?m=vod-type-id-15.html" target="_blank">欧美剧</a></td>
+  <td><p><font color="Black">英国</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 18:13:32 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-36541.html" target="_blank">玩的姐姐<font color="red"> [20201006期]</font>
+  <td><a href="/?m=vod-type-id-3.html" target="_blank">综艺</a></td>
+  <td><p><font color="Black">韩国</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 18:12:39 </font></td>
+</tr>
+ 
+<tr class="DianDian" onMouseOver="this.className='LongLong'" onMouseOut="this.className='DianDian'">
+  <td class="l"><a href="/?m=vod-detail-id-23372.html" target="_blank">妻子的味道<font color="red"> [20201006期]</font>
+  <td><a href="/?m=vod-type-id-3.html" target="_blank">综艺</a></td>
+  <td><p><font color="Black">韩国</font></p></td>
+  <td><span class="bts_1"><font color="red">连载中</font></span></td>
+  <td><font color="#2932E1">2020-10-07 18:12:12 </font></td>
+</tr>
+
+<!--影片列表结束-->
+</tbody>
+</table>
+<div class="page_num">共36576条数据&nbsp;当前:1/732页&nbsp;<em>首页</em>&nbsp;<em>上一页</em>&nbsp;<span class="pagenow">1</span>&nbsp;<a target="_self" class="pagelink_b" href="/?m=vod-index-pg-2.html">2</a>&nbsp;<a target="_self" class="pagelink_b" href="/?m=vod-index-pg-3.html">3</a>&nbsp;<a target="_self" class="pagelink_b" href="/?m=vod-index-pg-4.html">4</a>&nbsp;<a target="_self" class="pagelink_b" href="/?m=vod-index-pg-5.html">5</a>&nbsp;<a target="_self" class="pagelink_b" href="/?m=vod-index-pg-6.html">6</a>&nbsp;<a target="_self" href="/?m=vod-index-pg-2.html" class="pagelink_a">下一页</a>&nbsp;<a target="_self" href="/?m=vod-index-pg-732.html" class="pagelink_a">尾页</a>&nbsp;<input type="input" name="page" id="page" size="4" class="pagego"/><input type="button" value="跳 转" onclick="pagego('/?m=vod-index-pg-{pg}.html',732)" class="pagebtn" /></div>
+</div>
+
+<div class="footer">
+<div class="foot">
+<p>本网站提供的最新电视剧和电影资源均系收集于各大视频网站，本网站只提供web页面服务，并不提供影片资源存储，也不参与录制、上传</p>
+<p>若本站收录的节目无意侵犯了贵司版权，请给网页底部邮箱地址来信，我们会及时处理和回复，谢谢</p>
+<p>Copyright © 2017-2018 永久云资源免费采集网 www.yongjiuzy.com</p>
+<script type="text/javascript" src="//js.users.51.la/19381922.js"></script>
+</div>
+</div>
+</body>
+</html>
